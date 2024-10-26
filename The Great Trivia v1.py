@@ -242,7 +242,7 @@ def main_menu():
 │ Trivia Game created by Glen                                           │
 └───────────────────────────────────────────────────────────────────────┘''')
     global menu_input
-    menu_input = int(input("        Choose what you want to do : "))
+    menu_input = input("        Choose what you want to do : ")
     
 
 def bar_bawah():
@@ -907,18 +907,19 @@ def gameplay():
 
 def game ():
     while True :
+        clear_console()
         main_menu()
         clear_console()
-        if menu_input == 1:
+        if menu_input == "1":
             clear_console()
             user_detail()
             clear_console()
             storytime()
             loading()
             gameplay()
-        elif menu_input == 2:
+        elif menu_input == "2":
             setting()
-        elif menu_input == 3:
+        elif menu_input == "3":
             break
         else:
             print("Your selection is not exist")
