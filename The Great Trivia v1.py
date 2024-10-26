@@ -907,12 +907,12 @@ def gameplay():
 
 def game ():
     while True :
-        clear_console()
-        user_detail()
-        time.sleep(0.6)
         main_menu()
         clear_console()
         if menu_input == 1:
+            clear_console()
+            user_detail()
+            clear_console()
             storytime()
             loading()
             gameplay()
