@@ -4,15 +4,15 @@
 
 My first Python Game
 
-The Great Trivia is a quiz game inspired by Who Wants to Be a Millionaire with uniqure naration and visual
+The Great Trivia is a quiz game inspired by Who Wants to Be a Millionaire with unique naration and visual
 
 
 ## Story
-In this game you will become a human that was a avid traveler and trivia enthusiast, when you walking trhought a forest you notice a strange tree that held a mysterious door. When you approached, the door suddenly opened, pulling you inside the tree.
+In this game you will become a human that was a avid traveler and trivia enthusiast, when you walking throught a forest you notice a strange tree that held a mysterious door. When you approached, the door suddenly opened, pulling you inside the tree.
 
 You woke up in a village inhabited by owls as big as humans.
 
-Panicked, you ran to the village entrance, but one of the owls, named Quote, stopped [Name].
+Panicked, you ran to the village entrance, but one of the owls, named Quote, stopped you.
 
 Quote explained that if you wanted to go back to your world, you would need to fight a monster outside the village until reaching the door you had come through.
 
