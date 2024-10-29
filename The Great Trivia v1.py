@@ -3,7 +3,7 @@ import time
 import os
 from colorama import Fore, Style
 
-data_base = [
+data_base_0 = [
     {"question" : "What is the capital city of Italy?", "option" : [("1","Venice"),("2","Florence"),("3","Rome"),("4","Milan")], "answer" : "3", "hint" : "It's known for its ancient history and the Colosseum."},
     {"question" : "What is the official currency of Japan?", "option" : [("1","Yuan"),("2","Yen"),("3","Won"),("4","Ringgit")], "answer" : "2", "hint" : "It's represented by the symbol ¥."},
     {"question" : "Which city is known as the 'Big Apple'?", "option" : [("1","Chicago"),("2","Los Angeles"),("3","New York City"),("4","Miami")], "answer" : "3", "hint" : "Think of Times Square and Broadway."},
@@ -50,6 +50,8 @@ data_base = [
     {"question" : "What is the name of the traditional Korean dress?", "option" : [("1","Hanbok"),("2","Kimono"),("3","Cheongsam"),("4","Sari")], "answer" : "1", "hint" : "Worn during holidays and celebrations"},
     {"question" : "What is the popular Korean pop music genre called?", "option" : [("1","J-Pop"),("2","K-Pop"),("3","C-Pop"),("4","M-Pop")], "answer" : "2", "hint" : "Known for its catchy tunes"}
 ]
+
+data_base = data_base_0.copy()
 
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -769,6 +771,8 @@ def gameplay():
 
     global choosen_number
     global win_condition
+    global data_base_0
+    global data_base
 
     while True:
         try:
