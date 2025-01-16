@@ -2,6 +2,7 @@ import random
 import time
 import os
 from colorama import Fore, Style
+import streamlit
 
 data_base_0 = [
     {"question" : "What is the capital city of Italy?", "option" : [("1","Venice"),("2","Florence"),("3","Rome"),("4","Milan")], "answer" : "3", "hint" : "It's known for its ancient history and the Colosseum."},
